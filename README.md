@@ -2,8 +2,6 @@
 
 A simple and responsive calculator built using **HTML, CSS, and JavaScript**. This calculator supports basic arithmetic operations with a modern gradient-based user interface.
 
-## 🚀 Live Demo
-🔗 https://preethigajeganathan.github.io/Calculator/index.html
 ## 🚀 Features
 
 - Addition (+)
@@ -22,7 +20,7 @@ A simple and responsive calculator built using **HTML, CSS, and JavaScript**. Th
 ```
 calculator/
 │
-├── index.html
+├── calculator.html
 ├── calculator.js
 ├── math-calculator.png
 └── README.md
