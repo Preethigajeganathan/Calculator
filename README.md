@@ -50,7 +50,7 @@ The calculator includes:
 1. Download or clone the project.
 
 ```bash
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/your-username/Calculator.git
 ```
 
 2. Open the project folder.
