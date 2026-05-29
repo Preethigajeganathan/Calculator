@@ -24,7 +24,7 @@ A simple and responsive calculator built using **HTML, CSS, and JavaScript**. Th
 ```
 calculator/
 │
-├── calculator.html
+├── index.html
 ├── calculator.js
 ├── math-calculator.png
 └── README.md
