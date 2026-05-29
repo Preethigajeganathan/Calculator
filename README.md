@@ -2,6 +2,9 @@
 
 A simple and responsive calculator built using **HTML, CSS, and JavaScript**. This calculator supports basic arithmetic operations with a modern gradient-based user interface.
 
+## 🚀 Live Demo
+🔗 https://preethigajeganathan.github.io/Calculator/
+
 ## 🚀 Features
 
 - Addition (+)
