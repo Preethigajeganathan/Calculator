@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./math-calculator.png" type="image/x-png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: large;
+            box-sizing: border-box;
+         }
+        
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image:radial-gradient(pink,#b784e7,#C350E5);
+        }
+
+        .container{
+            background-image:linear-gradient(40deg,#EB59AC 20%,#59ACEB,#59EBA4);
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 5px 10px rgb(66, 13, 180);
+        }
+        .inp{
+            width: 100%;
+            padding: 25px;
+            border: none;
+            border-radius: 25px;
+            margin-bottom: 15px;
+        }
+        .btn{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100%;
+            max-width: 330px;
+            justify-content: center;
+        }
+
+        button{
+            width: 70px;
+            height: 70px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-weight: 900;
+            font-size: 32px;
+            /* background: white; */
+            outline: none;
+            background-image: conic-gradient(#BBC2FC,#6374F8,#273FF5,#0B27F4,#07199C,#051270);
+            user-select: none;
+        }
+        button:hover{
+          transform: scale(1.05);
+          transition: 0.2s;
+          cursor: pointer;
+        }
+        .inp{
+          width: 100%;
+          padding: 20px;
+          border: none;
+          border-radius: 15px;
+          margin-bottom: 15px;
+          text-align: right;
+          font-size: 20px;
+          font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <input type="text" class="inp" readonly>
+
+        <div class="btn">
+
+
+            <button>(</button>
+            <button>)</button>
+            <button>C</button>
+            <button>⌫</button>    
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>÷</button>
+            
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>×</button>
+            
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>–</button>
+            
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+            <button>+</button>
+        </div>
+    </div>
+    <script src="./4_calculator.js"></script>
+</body>
+</html>
